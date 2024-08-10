@@ -1,0 +1,30 @@
+/* This is Comment in CSS
+   It is for Single as well as Multiple Line
+*/
+
+h1{      /*   It is Element Selector   */
+    color: red;  /* Font Color */
+}
+p{
+   color: blueviolet;
+}
+
+*{      /*   It is Universal Selector :- Used to style all elememts of webpage  */
+   color: red;       /*  Less Priority than External Styling  */
+}
+
+#top_heading{    /* Id Selector :- Used to select id for styling */
+   color: rgb(54, 159, 9);
+}
+
+.article{   /* Class Selector :- Used to select class for styling */
+   color: burlywood;
+}
+
+h1,h2{   /* Group Selector :- Used to Style multiple tags simultaneously */
+   color: red;
+}
+
+#first p{   /* Descendant Selector :- Used to Style a element which is inside another element   */
+   color: gold;   /* Style the p tag which is inside first named class*/
+}

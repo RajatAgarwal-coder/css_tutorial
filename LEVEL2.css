@@ -1,0 +1,75 @@
+#first{
+    color: indianred;   /*   Font Color   */
+    background-color: greenyellow;   /*   Background Color    */
+}
+
+#second{
+    color: black;
+    background-color: green;
+}
+
+button{
+    color: black;
+    background-color: blue;
+}
+
+*{      /* It will remove the default space for the tags */
+    margin: 0;
+    padding: 0;
+}
+
+#alpha{
+    background-color: rgba(255, 0, 0, 0.0);  /* Full Transperancy(invisible) */
+}
+
+#alp_dis{
+    background-color: rgba(0, 255, 0, 1);   /* Full Opaque*/
+}
+
+#alp_end{
+    background-color: rgba(87, 255, 3, 0.502);
+}
+
+.box{
+    height: 40px;
+    width: 220px;
+}
+
+#box1{
+    background-color: red;
+}
+
+#box2{
+    background-color: rgb(124, 206, 239);
+}
+
+#box3{
+    background-color: #49ff01;
+}
+
+#back_img{
+    background-image: url(/assets/myntra_icon.jpeg) ; /* To add background image */
+    height: 50px;
+    width: 70px;
+    background-color: rgb(192, 17, 17);  /* It will set the background color*/
+    background-size: contain;  /* Scales the image as large as possible within its container */
+    background-repeat: no-repeat;  /* It will specify that image is displayed only once */ 
+    background-position: center;  /* It will set the image at the top of box in which it is filled */
+    /* background: green url(/assets/myntra_icon.jpeg) no-repeat none center;    
+    Shorthand - Syntax background : color image url repeat attachment position (To shorten the code) */
+}
+
+.vistest{
+    height: 25px ;
+    width: 260px;
+}
+
+#vis_box1{
+    background-color: rebeccapurple;
+    visibility: visible;
+}
+
+#vis_box2{
+    background-color: greenyellow;
+    visibility: hidden;   /* This box will be invisible */
+}
