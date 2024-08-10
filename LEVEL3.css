@@ -5,72 +5,72 @@
 
 #box1 {
     background-color: red;
-    text-align: center;
+    text-align: center;  /* It takes the text in center of box */
 }
 
 #box2 {
     background-color: green;
-    text-align: left;
+    text-align: left;  /* It takes the text in left side of box */
 }
 
 #box3 {
     background-color: blue;
-    text-align: right;
+    text-align: right;  /* It takes the text in right side of box */
 }
 
 #decor_box1 {
-    text-decoration: overline ;
-    text-decoration-style: dashed;
-    text-decoration-color: coral;
+    text-decoration: overline ;  /* It makes a line up to a text */
+    text-decoration-style: dashed;  /* It is the line dashed (----) */
+    text-decoration-color: coral;  /* It is used to add the color in the line */
 }
 
 #decor_box2 {
-    text-decoration: underline;
-    text-decoration-style: double;
+    text-decoration: underline;  /* It is used to underline the word */
+    text-decoration-style: double;  /* It is used to display the line twice */
     text-decoration-color: darkorange;
 }
 
 #decor_box3 {
-    text-decoration: line-through;
-    text-decoration-style: wavy;
+    text-decoration: line-through;  /* It makes a line on the text like strike through */
+    text-decoration-style: wavy;  /* It make a wave like line */
     text-decoration-color: fuchsia;
 }
 
 #decor_box4 {
     text-decoration: underline;
-    text-decoration-style: solid;
+    text-decoration-style: solid;  /* It makes the line thick */
     text-decoration-color: lawngreen;
 }
 
 #youtube {
-    text-decoration: none;
+    text-decoration: none;  /* It shows the link without the underline */ 
 }
 
 #ttp1 {
-    text-transform: uppercase;
+    text-transform: uppercase;  /* It makes all the letter uppercase */
 }
 
 #ttp2 {
-    text-transform: lowercase;
+    text-transform: lowercase;  /* It makes all the letter lowercase */
 }
 
 #ttp3 {
-    text-transform: capitalize;
+    text-transform: capitalize;  /* Each letter of every word become capital remaining words remain same */
 }
 
 #ttp4 {
-    text-transform: none;
+    text-transform: none;  /* It write the words as it is written */
 }
 
 #firstpara {
-    line-height: 6px;
+    line-height: 6px;  /* It is used to specify the gap between the lines */
 }
 
 #secondpara {
-    line-height: 20px;
+    line-height: 20px;  /* It is gap between the center of 2 lines */
 }
 
-#font_size1 {
+#font_size1 {     /* It is used to specify the size of font */
     font-size: 30px;
 }
 
@@ -78,7 +78,7 @@
     font-size: 10px;
 }
 
-#font_weigth1 {
+#font_weigth1 {  /* It specifies the thockess of the word */ 
     font-weight: 900;
 }
 
@@ -87,15 +87,15 @@
 }
 
 #font_weigth3 {
-    font-weight: 100;
+    font-weight: 400;  /* It is the weight of the normal text */
 }
 
 #font_style1 {
-    font-style: oblique;
+    font-style: oblique;  /* It os used to change the style of text */
 }
 
 #font_style2 {
-    font-style: italic;
+    font-style: italic;  /* Italic is mostly used to quotes of some person */
 }
 
 #font_style3 {
@@ -103,5 +103,21 @@
 }
 
 #ff1 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;  /* If 1st does not work it takes 2nd(Fallback) */
+}
+
+#ff2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fontfromgoogle{
+  font-family: "Kalnia Glaze", cursive; /* This is mostly written in google itself */
+}
+
+.material-symbols-rounded{
+    font-size: 40px;
+}
+
+.fa-solid fa-bars{
+    font-size: 40px;
 }
