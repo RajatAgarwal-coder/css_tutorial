@@ -115,9 +115,9 @@
 }
 
 .material-symbols-rounded{
-    font-size: 40px;
+    font-size: 40px;  /* To increase the size of icon import from Google */
 }
 
 .fa-solid fa-bars{
-    font-size: 40px;
+    font-size: 40px;  /* To increase the size of icon import from Fonts Awesome */
 }
