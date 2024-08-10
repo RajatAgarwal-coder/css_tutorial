@@ -1,0 +1,107 @@
+.box {
+    height: 50px;
+    width: 400px;
+}
+
+#box1 {
+    background-color: red;
+    text-align: center;
+}
+
+#box2 {
+    background-color: green;
+    text-align: left;
+}
+
+#box3 {
+    background-color: blue;
+    text-align: right;
+}
+
+#decor_box1 {
+    text-decoration: overline ;
+    text-decoration-style: dashed;
+    text-decoration-color: coral;
+}
+
+#decor_box2 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: darkorange;
+}
+
+#decor_box3 {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: fuchsia;
+}
+
+#decor_box4 {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: lawngreen;
+}
+
+#youtube {
+    text-decoration: none;
+}
+
+#ttp1 {
+    text-transform: uppercase;
+}
+
+#ttp2 {
+    text-transform: lowercase;
+}
+
+#ttp3 {
+    text-transform: capitalize;
+}
+
+#ttp4 {
+    text-transform: none;
+}
+
+#firstpara {
+    line-height: 6px;
+}
+
+#secondpara {
+    line-height: 20px;
+}
+
+#font_size1 {
+    font-size: 30px;
+}
+
+#font_size2 {
+    font-size: 10px;
+}
+
+#font_weigth1 {
+    font-weight: 900;
+}
+
+#font_weight2 {
+    font-weight: 600;
+}
+
+#font_weigth3 {
+    font-weight: 100;
+}
+
+#font_style1 {
+    font-style: oblique;
+}
+
+#font_style2 {
+    font-style: italic;
+}
+
+#font_style3 {
+    font-style: normal;
+}
+
+#ff1 {
+    font-family: "Courier New", Courier, monospace;
+}
