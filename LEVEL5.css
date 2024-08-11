@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#block_1,#block_2,#block_3{
+    background-color: gold;
+    display: block;  /* Due to this another block is display in next line */
+}
+
+#inline_1,#inline_2,#inline_3{
+    background-color: brown;
+    display: inline;  /* Due to this another block is displayed after it */
+    /* The display: inline property prevents height from having an effect */
+}
+
+#inblock_1,#inblock_2,#inblock_3{
+    background-color: bisque;
+    display: inline-block;  /* It helps to set height and width which was not given by inline */
+    vertical-align: top;
+}
+
+#none{
+    display: none;  /* It will remove this object from screen */
+}
+
+.relunits{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#percent_1{
+    height: 130px;
+    width: 970px;
+    background-color: aqua;
+    font-size: 25px;
+}
+
+#percent_2{
+    background-color: coral;
+    width: 50%;  /* It will take 50% width of its parent width i.e. 290px */
+    height: 30%;  /* It will take 50% width of its parent width i.e. 150px */
+    /* If parent is not their then whole body is considered */
+}
+
+body{
+    font-size: 20px;
+}
+
+#em_1{
+    height: 130px;
+    width: 970px;
+    background-color: darkkhaki;
+    font-size: 25px;  /* It overwrite the size written in body */
+}
+
+#em_2{
+    background-color: gold;
+    width: 70%;
+    height: 50%;
+    font-size: 1.2em;  /* It makes the size 1.2x larger than em_1 */
+}
+
+#rem_1{
+    background-color: grey;
+    height: 130px;
+    width: 970px;
+    font-size: 25px;
+}
+
+#rem_2{
+    background-color:indianred ;
+    width: 70%;
+    height: 50%;
+    font-size: 2rem;  /* It has double the body font size */
+}
+
+#vwvh_1{
+    background-color:lightsteelblue;
+    height: 25vh;  /* It takes 25% height of viewport height */
+    width: 90vw;  /* It takes 90% width of viewport width */
+}
+
+#vwvh_2{
+    background-color: forestgreen;
+    height: 10vh;  /* It takes 10% height of viewport height */
+    width: 60vw;   /* It takes 60% width of viewport width */
+}
+
+.position_property{
+    height: 70px;
+    width: 95px;
+    background-color: greenyellow;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+#static{
+    position: static;  /* It specifies the position of box */
+    /* By default place is static */
+}
+
+#relative{
+    position: relative;  /* It is shift by specified position from its static place */
+    top: 20px;
+    left: 90px;
+}
+
+#fixed{
+    position: fixed;    /* Shift by specified position from the top left corner of the window anf remain fixed on screen */
+    top: 370px;   /* It mostly used to show navigation icons or chat icon */
+    left: 870px;
+}
+
+#absolute{
+    position: absolute;  /* It shift by specified position from the top left corner of the page */
+    top: 1400px;  /* If we make a box absolute it become 1 level up and can show overlapping */
+    left: 200px;
+}
+
+.zindex{
+    position: absolute;
+    border: 3px solid black;
+    width: 210px;
+    height: 110px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#z_ind1{
+    background-color: red;
+    top: 1620px;
+    left: 50px;
+    z-index: 1;  /* Used to set elements on z-axis */
+}
+
+#z_ind2{
+    background-color: cyan;
+    left: 111px;
+    top: 1680px;
+    z-index: 2;  /* Accepts only integer value Higher the Value More above it appears */
+}
