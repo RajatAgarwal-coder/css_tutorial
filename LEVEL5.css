@@ -120,7 +120,7 @@ body{
 }
 
 #fixed{
-    position: fixed;    /* Shift by specified position from the top left corner of the window anf remain fixed on screen */
+    position: fixed;    /* Shift by specified position from the top left corner of the window and remain fixed on screen */
     top: 370px;   /* It mostly used to show navigation icons or chat icon */
     left: 870px;
 }
