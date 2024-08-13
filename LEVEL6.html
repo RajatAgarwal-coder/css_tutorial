@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL 6</title>
+
+    <link rel="stylesheet" href="LEVEL6.css">
+
+</head>
+<body>
+
+    <div id="float">
+        <div id="float_right" class="fp">Float Property</div>
+        <div id="float_left" class="fp">Allow element to align left or right within the container</div>
+    </div><hr>
+
+    <h1 id="heading">File Box Direction : Arrange items in either a row or column</h1>
+    <div class="container" id="row">
+        <div id="flex_item1" class="flexbox">Flex Item 1</div>
+        <div id="flex_item2" class="flexbox">Flex Item 2</div>
+        <div id="flex_item3" class="flexbox">Flex Item 3</div>
+        <div id="flex_item4" class="flexbox">Flex Item 4</div>
+        <div id="flex_item5" class="flexbox">This content is shown using display:row</div>
+    </div>
+
+    <div class="container" id="row-reverse">
+        <div id="flex_item1" class="flexbox">Flex Item 1</div>
+        <div id="flex_item2" class="flexbox">Flex Item 2</div>
+        <div id="flex_item3" class="flexbox">Flex Item 3</div>
+        <div id="flex_item4" class="flexbox">Flex Item 4</div>
+        <div id="flex_item5" class="flexbox">This content is shown using display:row-reverse</div>
+    </div>
+
+    <div class="container" id="column">
+        <div id="flex_item1" class="flexbox">Flex Item 1</div>
+        <div id="flex_item2" class="flexbox">Flex Item 2</div>
+        <div id="flex_item3" class="flexbox">Flex Item 3</div>
+        <div id="flex_item4" class="flexbox">Flex Item 4</div>
+        <div id="flex_item5" class="flexbox">This content is shown using display:column</div>
+    </div>
+
+    <div class="container" id="column-reverse">
+        <div id="flex_item1" class="flexbox">Flex Item 1</div>
+        <div id="flex_item2" class="flexbox">Flex Item 2</div>
+        <div id="flex_item3" class="flexbox">Flex Item 3</div>
+        <div id="flex_item4" class="flexbox">Flex Item 4</div>
+        <div id="flex_item5" class="flexbox">This content is shown using display:column-reverse</div>
+    </div><hr>
+
+    <h1 id="heading">Justify Content : Align flex items along the main axis (Container>Items)</h1>
+    <div class="flexcontainer" id="start">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: start</div>
+    </div>
+
+    <div class="flexcontainer" id="end">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: end</div>
+    </div>
+
+    <div class="flexcontainer" id="center">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: center</div>
+    </div>
+
+    <div class="flexcontainer" id="space-between">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: space-between</div>
+    </div>
+
+    <div class="flexcontainer" id="space-around">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: space-around</div>
+    </div>
+
+    <div class="flexcontainer" id="space-evenly">
+        <div class="justify_content" id="flexitem_1">Flex Item 1</div>
+        <div class="justify_content" id="flexitem_2">Flex Item 2</div>
+        <div class="justify_content" id="flexitem_3">Flex Item 3</div>
+        <div class="justify_content" id="flexitem_4">Flex Item 4</div>
+        <div class="justify_content" id="flexitem_5">justify-content: space-evenly</div>
+    </div><hr>
+
+    <h1 id="heading">Align-content : It remove extra space from cross axis</h1>
+    <div class="Align-content" id="aligncontent1">
+        <div class="box" id="box1">Flex Item 1</div>
+        <div class="box" id="box2">Flex Item 2</div>
+        <div class="box" id="box3">Flex Item 3</div>
+        <div class="box" id="box1">Flex Item 4</div>
+        <div class="box" id="box2">Flex Item 5</div>
+        <div class="box" id="box3">Flex Item 6</div>
+        <div class="box" id="box1">Flex Item 7</div>
+    </div>
+
+    <div class="Align-content" id="aligncontent2">
+        <div class="box" id="box1">Flex Item 1</div>
+        <div class="box" id="box2">Flex Item 2</div>
+        <div class="box" id="box3">Flex Item 3</div>
+        <div class="box" id="box1">Flex Item 4</div>
+        <div class="box" id="box2">Flex Item 5</div>
+        <div class="box" id="box3">Flex Item 6</div>
+        <div class="box" id="box1">Flex Item 7</div>
+    </div>
+
+    <div class="Align-content" id="aligncontent3">
+        <div class="box" id="box1">Flex Item 1</div>
+        <div class="box" id="box2">Flex Item 2</div>
+        <div class="box" id="box3">Flex Item 3</div>
+        <div class="box" id="box1">Flex Item 4</div>
+        <div class="box" id="box2">Flex Item 5</div>
+        <div class="box" id="box3">Flex Item 6</div>
+        <div class="box" id="box1">Flex Item 7</div>
+    </div><hr>
+
+    <h1 id="heading">Align-Self : Used to align the flex item in container along cross axis</h1>
+    <div class="align-self" id="alignself1">
+        <div class="flexitem" id="self1">Flex Item 1</div>
+        <div class="flexitem" id="self2">Flex Item 2</div>
+        <div class="flexitem" id="self3">Flex Item 3</div>
+        <div class="flexitem" id="self4">Flex Item 4</div>
+    </div>
+
+    <div class="align-self" id="alignself2">
+        <div class="flexitem" id="self1">Flex Item 1</div>
+        <div class="flexitem" id="self2">Flex Item 2</div>
+        <div class="flexitem" id="self3">Flex Item 3</div>
+        <div class="flexitem" id="self4">Flex Item 4</div>
+    </div>
+
+    <div class="align-self" id="alignself3">
+        <div class="flexitem" id="self1">Flex Item 1</div>
+        <div class="flexitem" id="self2">Flex Item 2</div>
+        <div class="flexitem" id="self3">Flex Item 3</div>
+        <div class="flexitem" id="self4">Flex Item 4</div>
+    </div><hr>
+
+    <h1 id="heading">flex-shrink : It is used to shrink a particular box Default : 1</h1>
+    <div class="align-self" id="flexshrink">
+        <div class="flexitem" id="shrink1">Flex Item 1</div>
+        <div class="flexitem" id="shrink2">Flex Item 2</div>
+        <div class="flexitem" id="shrink3">Flex Item 3</div>
+        <div class="flexitem" id="shrink4">Flex Item 4</div>
+    </div><hr>
+
+    <h1 id="heading">Grid : Used to make Multi Dimensional Layout</h1>
+    <div id="grid">
+        <div id="griditem_1">Grid Item 1</div>
+        <div id="griditem_2">Grid Item 2</div>
+        <div id="griditem_3">Grid Item 3</div>
+        <div id="griditem_4">Grid Item 4</div>
+    </div><hr>
+
+    <h1 id="heading"> Media Queries : Create Responsive website by making styles for specific heigh and width </h1>
+    <div id="width">Using width media querises</div>
+    <div id="min-width">Using min-width media queries</div>
+    <div id="max-width">Using max-width media queries</div>
+    <div id="combinators">Using Combinations of media queries</div>
+    
+</body>
+</html>
