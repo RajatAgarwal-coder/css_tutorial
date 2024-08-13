@@ -221,7 +221,7 @@ h3{
     animation-iteration-count: 3;  /* Specify number of times animation repeat */
     animation-direction: reverse;  /* Specify the direction of animation */ 
 
-    /* animation: name duration timing-function delay iteration-count direction fill-mode;  Shorthand */
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;  Shorthand */
 }
 
 @keyframes timmer {  
